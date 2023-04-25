@@ -28,7 +28,7 @@ def load_config() -> Config:
 
     return Config(
         bot=Bot(
-            token=os.getenv('TOKEN', '6262486841:AAF0CQ-nGsdv9b9gfxAvyzJm__OHn-0UVb8'),
+            token=os.getenv('TOKEN', ''),
             admin=int(os.getenv('ADMIN', '0'))
         ),
         redis=Redis(
